@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "@api-client/*": ["./ApiClient/*"],
+            "@app-router/*": ["./AppRouter/*"],
+            "@auth/*": ["./Auth/*"],
+            "@bamsa/*": ["./Bamsa/*"],
+            "@config/*": ["./Config/*"],
+            "@ingredient/*": ["./Ingredient/*"],
+            "@recipe/*": ["./Recipe/*"]
+        }
+    }
+}
