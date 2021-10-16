@@ -1,0 +1,67 @@
+{
+    "id": "1",
+    "name": "Pesto Genovese",
+    "description": "Salsa a base de albahaca y piñones",
+    "steps": [
+        {
+            "description": "Trocear las hojas con los dedos eliminando los tallos.",
+            "duration": {
+                "preparation": 300,
+                "total": 300
+            },
+            "ingredients": [
+                {
+                    "quantity": 150,
+                    "unit": "g",
+                    "ingredientId": "1"
+                }
+            ]
+        }, {
+            "description": "Tostar un poco los piñones y triturarlos con el ajo. Añadir la albahaca y triturar.",
+            "duration": {
+                "preparation": 300,
+                "total": 600
+            },
+            "ingredients": [
+                {
+                    "quantity": 50,
+                    "unit": "g",
+                    "ingredientId": "2"
+                },
+                {
+                    "quantity": 1,
+                    "unit": "clover",
+                    "ingredientId": "3"
+                }
+            ]
+        },
+        {
+            "description": "Incorporar el aceite poco a poco mientras mezclas. Añadir el queso y mezclar.",
+            "duration": {
+                "preparation": 300,
+                "total": 300
+            },
+            "ingredients": [
+                {
+                    "quantity": 150,
+                    "unit": "ml",
+                    "ingredientId": "4"
+                },
+                {
+                    "quantity": 30,
+                    "unit": "g",
+                    "ingredientId": "5"
+                },
+                {
+                    "quantity": 30,
+                    "unit": "g",
+                    "ingredientId": "6"
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "diet": "vegetarian",
+        "type": "sauce"
+    }
+}

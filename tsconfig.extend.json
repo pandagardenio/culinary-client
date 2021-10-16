@@ -1,11 +1,18 @@
 {
     "compilerOptions": {
         "baseUrl": "./src",
+        "lib": ["es6", "dom"],
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
         "paths": {
-            "@api-client/*": ["./ApiClient/*"],
-            "@app-router/*": ["./AppRouter/*"],
-            "@auth/*": ["./Auth/*"],
-            "@bamsa/*": ["./Bamsa/*"],
+            "@pandagardenio/app": ["./packages/App"],
+            "@pandagardenio/api-client": ["./packages/ApiClient"],
+            "@pandagardenio/app-router": ["./packages/AppRouter"],
+            "@pandagardenio/auth/*": ["./packages/Auth/*"],
+            "@pandagardenio/bamsa/*": ["./packages/Bamsa/components/*"],
+            "@pandagardenio/dashboard": ["./packages/Dashboard"],
+            "@pandagardenio/utils/*": ["./packages/utils/*"],
             "@config/*": ["./Config/*"],
             "@ingredient/*": ["./Ingredient/*"],
             "@recipe/*": ["./Recipe/*"]

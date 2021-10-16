@@ -1,5 +1,5 @@
-import { ApiClientConfig } from "../ApiClient";
-import { AuthConfig } from "../Auth/Config";
+import { ApiClientConfig } from "../packages/ApiClient";
+import { AuthConfig } from "../packages/Auth/Config";
 
 export type Config = {
     auth: AuthConfig;

@@ -1,0 +1,75 @@
+{
+	"id": "3",
+	"name": "Tzatziki",
+	"description": "Salsa a base de yogur y pepino",
+	"steps": [{
+			"description": "Lavamos bien el pepino y lo rallamos. Ponemos el pepino rallado en un colador, lo espolvoreamos con una pizca de sal y mezclamos bien. Dejamos que repose durante 30 minutos hasta que haya eliminado toda su agua.",
+            "duration": {
+                "preparation": 600,
+                "total": 1800
+            },
+			"ingredients": [{
+				"quantity": 0.5,
+				"unit": "ingredient_name",
+				"name": "Pepino"
+			}]
+		}, {
+			"description": "En un bol mezclamos el yogur griego, 2 cucharadas de menta fresca picadita, el medio diente de ajo cortado en daditos pequeños, el chorrito de zumo de limón y mezclamos bien.",
+            "duration": {
+                "preparation": 300,
+                "total": 600
+            },
+			"ingredients": [{
+					"quantity": 125,
+					"unit": "g",
+					"name": "Yogur griego"
+				},
+				{
+					"quantity": 2,
+					"unit": "spoon",
+					"name": "Menta fresca"
+				},
+				{
+					"quantity": 0.5,
+					"unit": "clover",
+					"name": "Ajo"
+				},
+				{
+					"quantity": 0.5,
+					"unit": "cup",
+					"name": "Zumo de limón"
+				}
+			]
+		},
+		{
+			"description": "Añadimos el pepino ya escurrido, mezclamos y tapamos la salsa. Dejamos que repose durante unas horas para que asiente los sabores. Podemos guardarla en el frigo y dejarla incluso de un día para otro.",
+            "duration": {
+                "preparation": 0,
+                "total": 7200
+            },
+			"ingredients": []
+		},
+		{
+			"description": "En el momento de servir la salsa la regamos con un chorrito de aceite de oliva virgen extra y la espolvoreamos con una pizca de pimentón de la Vera.",
+            "duration": {
+                "preparation": 180,
+                "total": 180
+            },
+			"ingredients": [{
+					"quantity": 0.2,
+					"unit": "cup",
+					"name": "Aceite de oliva"
+				},
+				{
+					"quantity": 0.5,
+					"unit": "spoon",
+					"name": "Pimentón dulce"
+				}
+			]
+		}
+	],
+	"metadata": {
+		"diet": "vegetarian",
+		"type": "sauce"
+	}
+}

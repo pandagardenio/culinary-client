@@ -1,0 +1,35 @@
+{
+    "id": "4",
+    "name": "Pasta al pesto",
+    "description": "Pasta al pesto",
+    "steps": [
+        {
+            "description": "Cocer la pasta en una olla con agua hirviendo y una pizca de sal.",
+            "duration": {
+                "preparation": 180,
+                "total": 600
+            },
+            "ingredients": [
+                {
+                    "quantity": 300,
+                    "unit": "g",
+                    "ingredientId": "7"
+                }
+            ]
+        },
+        {
+            "recipeId": "1"
+        },
+        {
+            "description": "Emplata la pasta y añade una cantidad de pesto que la cubra",
+            "duration": {
+                "preparation": 300,
+                "total": 300
+            }
+        }
+    ],
+    "metadata": {
+        "diet": "vegetarian",
+        "type": "dish"
+    }
+}

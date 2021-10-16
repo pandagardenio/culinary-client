@@ -1,0 +1,40 @@
+{
+    "id": "2",
+    "name": "Cebolla morada marinada",
+    "description": "Cebolla marinada en cítricos",
+    "steps": [
+        {
+            "description": "Cortar la cebolla morada en tiras no muy finas y picar los chiles muy pequeños (es muy recomendable usar guantes y quitarles las semillas). Salar y poner en un bol con el zumo de naranja y lima en la nevera durante al menos cuatro horas.",
+            "duration": {
+                "preparation": 300,
+                "total": 14800
+            },
+            "ingredients": [
+                {
+                    "quantity": 4,
+                    "unit": "ingredient_name",
+                    "name": "Cebolla morada"
+                },
+                {
+                    "quantity": 2,
+                    "unit": "ingredient_name",
+                    "name": "Chile habanero"
+                },
+                {
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "name": "Zumo de lima"
+                },
+                {
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "name": "Zumo de naranja"
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "diet": "vegetarian",
+        "type": "cooking_base"
+    }
+}
